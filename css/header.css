@@ -1,0 +1,36 @@
+header {
+  /* max-width: auto; */
+  padding: 0 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 35px;
+}
+.logo img {
+  height: 23px;
+}
+.menu {
+  display: flex;
+  gap: 0 74px;
+}
+nav a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 113%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.mini_logos {
+  display: flex;
+  gap: 28px;
+}
+.mini_logos img {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.mini_logos img:hover {
+  transform: scale(1.1);
+}

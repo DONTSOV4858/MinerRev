@@ -1,0 +1,83 @@
+.main3 {
+  margin-top: 91px;
+  height: 471px;
+}
+.title-items {
+  text-align: center;
+}
+.items-asics {
+  margin-top: 64px;
+}
+.asics-title {
+  position: sticky;
+  top: 20;
+  left: 42%;
+  text-align: center;
+}
+.scroll {
+}
+.asic-container {
+  display: flex;
+  gap: 68px;
+  overflow: auto;
+  position: relative;
+  max-width: 85vw;
+  margin: 0 auto;
+}
+.asic {
+  margin-top: 165px;
+  border-radius: 25px;
+  min-width: 347px;
+  max-width: 347px;
+  height: 204px;
+  box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+  background: linear-gradient(135deg, #4a5d66 0%, #3a476b 40%, #521d63 100%);
+  position: relative;
+  display: flex;
+  align-items: end;
+  flex: 1;
+}
+.asic:hover {
+  background:
+    radial-gradient(circle at 20% 80%, #00d1ff 0%, transparent 60%),
+    radial-gradient(circle at 80% 20%, #ff00ff 0%, transparent 60%),
+    radial-gradient(circle at 60% 60%, #7b3cff 0%, transparent 70%),
+    radial-gradient(circle at 10% 10%, #5b8cff 0%, transparent 60%), #2b2f3a;
+}
+.asic-back {
+  position: absolute;
+  top: -100%;
+  right: 1;
+}
+.asic-text {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 23px 0;
+  padding-bottom: 23px;
+}
+.text-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  flex: 0 1 100%;
+}
+.text-info {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  flex: 0 1 50%;
+}
+.asic-image {
+  position: absolute;
+  top: -50%;
+  right: 5%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.asic-image:hover {
+  transform: scale(1.1);
+}
