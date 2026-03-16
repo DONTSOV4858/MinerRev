@@ -1,6 +1,5 @@
 .main3 {
   margin-top: 91px;
-  height: 471px;
 }
 .title-items {
   text-align: center;
@@ -14,8 +13,6 @@
   left: 42%;
   text-align: center;
 }
-.scroll {
-}
 .asic-container {
   display: flex;
   gap: 68px;
@@ -23,7 +20,26 @@
   position: relative;
   max-width: 85vw;
   margin: 0 auto;
+  padding-bottom: 55px;
 }
+.asic-container::-webkit-scrollbar {
+  height: 8px;
+}
+.asic-container::-webkit-scrollbar-track {
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.42);
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+.asic-container::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background:
+    radial-gradient(circle at 20% 80%, #00d1ff 0%, transparent 60%),
+    radial-gradient(circle at 80% 20%, #ff00ff 0%, transparent 60%),
+    radial-gradient(circle at 60% 60%, #7b3cff 0%, transparent 70%),
+    radial-gradient(circle at 10% 10%, #5b8cff 0%, transparent 60%), #2b2f3a;
+}
+
 .asic {
   margin-top: 165px;
   border-radius: 25px;

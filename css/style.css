@@ -18,6 +18,10 @@ dd {
 html {
   -webkit-text-size-adjust: 100%;
 }
+html,
+body {
+  overflow: auto;
+}
 ul,
 ol {
   list-style: none;
@@ -33,10 +37,7 @@ textarea,
 select {
   font: inherit;
 }
-html,
-body {
-  overflow-x: hidden;
-}
+
 /*-----------------*/
 body {
   margin: 0;
