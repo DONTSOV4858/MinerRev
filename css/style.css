@@ -49,6 +49,11 @@ body {
   background-repeat: no-repeat;
   font-family: "Montserrat", sans-serif;
   color: white;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
 }
 a {
   color: white;

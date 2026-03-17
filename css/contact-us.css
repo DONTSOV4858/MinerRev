@@ -1,0 +1,52 @@
+.contact-us {
+  margin-top: 85px;
+  margin-bottom: 125px;
+}
+.contact-us-title {
+  text-align: center;
+}
+.contact-us-text {
+  margin-top: 70px;
+}
+.contact-us-question {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  padding-top: 15px;
+}
+.contact-us-write {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  padding-top: 25px;
+}
+.button-contact {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 41px;
+}
+button {
+  width: 466px;
+  height: 81px;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #00c6ff, #7b00ff);
+}
+button:hover {
+  box-shadow:
+    0 0 15px 1px #00f0ff,
+    0 4px 6px 1px rgba(250, 0, 255, 0.57),
+    0 -2px 8px 0 rgba(0, 41, 255, 0.89);
+}

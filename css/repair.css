@@ -1,0 +1,40 @@
+.repair {
+  margin-top: 50px;
+}
+.repair-title {
+  text-align: center;
+}
+.repair-services {
+  margin-top: 85px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.service {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.service:hover {
+  box-shadow: 0 0 15px 0 rgba(0, 255, 255, 0.47);
+}
+.service-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  position: absolute;
+}
+.litle-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+.repair-circle {
+  position: relative;
+}
