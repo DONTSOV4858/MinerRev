@@ -1,5 +1,5 @@
 .main2 {
-  margin-top: 140px;
+  margin-top: 30px;
 }
 .reason-title {
   text-align: center;
@@ -10,7 +10,7 @@
   flex-wrap: wrap;
   gap: 20px;
   justify-content: space-between;
-  padding: 0 80px;
+  margin: 0 80px;
   margin-top: 48px;
 }
 
@@ -90,7 +90,7 @@
   margin-top: 93px;
   display: flex;
   flex-wrap: wrap;
-  padding: 0 80px;
+  margin: 0 80px;
   justify-content: space-between;
 }
 .ring1 {
@@ -146,4 +146,82 @@
   line-height: 100%;
   letter-spacing: 0.01em;
   text-align: center;
+}
+@media (max-width: 985px) {
+  .reason-title {
+    font-size: 35px;
+    line-height: 214%;
+    letter-spacing: 0.01em;
+  }
+}
+@media (max-width: 1115px) {
+  .reason-1 {
+    border: 1px solid #373438;
+    border-radius: 25px;
+    width: 107px;
+    height: 49px;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    padding: 0 26px;
+  }
+  .reason-2 {
+    border: 1px solid #373438;
+    border-radius: 25px;
+    width: 162px;
+    height: 49px;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+  }
+  .reason-3 {
+    border: 1px solid #373438;
+    border-radius: 25px;
+    width: 107px;
+    height: 49px;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+  }
+  .reason-4 {
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    border: 1px solid #373438;
+    border-radius: 25px;
+    width: 167px;
+    height: 49px;
+  }
+  .reasons {
+    margin: 0 39px;
+  }
+}
+@media (max-width: 1180px) {
+  .ring1 {
+    width: 318px;
+    height: 318px;
+  }
+  .ring2 {
+    width: 299px;
+    height: 299px;
+  }
+  .ring3 {
+    width: 278px;
+    height: 278px;
+  }
+  .circle {
+    width: 263px;
+    height: 263px;
+    gap: 35px;
+  }
+  .circle_1 {
+    font-size: 51px;
+    line-height: 35%;
+    letter-spacing: 0.01em;
+  }
+  .circle_2 {
+    font-size: 15px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+  }
+  .circle-wrapper {
+    margin: 0 17px;
+    margin-top: 50px;
+  }
 }

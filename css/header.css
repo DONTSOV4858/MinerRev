@@ -34,3 +34,37 @@ nav a:hover {
 .mini_logos img:hover {
   transform: scale(1.1);
 }
+@media (max-width: 1040px) {
+  header {
+    background:
+      linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #0b0b0f 100%),
+      linear-gradient(90deg, #6284d1, #35276e, #570c70);
+    flex-direction: column;
+    padding: 0 37px;
+    padding-top: 15px;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  .menu {
+    gap: 30px;
+    padding: 17px 0;
+  }
+  nav a {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 113%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding-top: 3px;
+  }
+  .mini_logos {
+    display: none;
+  }
+}
+@media (min-width: 1040px) {
+  .strip {
+    display: none;
+  }
+}
