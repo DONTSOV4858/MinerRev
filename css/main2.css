@@ -1,5 +1,5 @@
 .main2 {
-  margin-top: 30px;
+  margin-top: 135px;
 }
 .reason-title {
   text-align: center;
@@ -12,6 +12,7 @@
   justify-content: space-between;
   margin: 0 80px;
   margin-top: 48px;
+  margin-bottom: 50px;
 }
 
 .reason-1 {
@@ -87,7 +88,6 @@
     0 -2px 8px 0 rgba(0, 41, 255, 0.89);
 }
 .circle-wrapper {
-  margin-top: 93px;
   display: flex;
   flex-wrap: wrap;
   margin: 0 80px;

@@ -41,7 +41,7 @@
 }
 
 .asic {
-  margin-top: 165px;
+  margin-top: 178px;
   border-radius: 25px;
   min-width: 347px;
   max-width: 347px;
@@ -64,6 +64,7 @@
   position: absolute;
   top: -100%;
   right: 1;
+  display: block;
 }
 .asic-text {
   display: flex;
@@ -115,10 +116,6 @@
     letter-spacing: 0.01em;
   }
   .asic-container {
-    max-width: 100vw;
-    margin-left: 40px;
-  }
-  .asic-container::-webkit-scrollbar {
-    max-width: 70vw;
+    max-width: 90vw;
   }
 }

@@ -38,3 +38,22 @@
 .repair-circle {
   position: relative;
 }
+@media (max-width: 770px) {
+  .repair {
+    margin-top: 30px;
+  }
+  .repair-title {
+    font-size: 35px;
+    line-height: 214%;
+    letter-spacing: 0.01em;
+  }
+  .repair-services {
+    margin-left: 39px;
+    margin-right: 39px;
+    margin-top: 30px;
+  }
+  .repair-circle svg {
+    width: 186.27px;
+    height: 180px;
+  }
+}

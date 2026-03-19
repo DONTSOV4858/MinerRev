@@ -50,3 +50,14 @@ button:hover {
     0 4px 6px 1px rgba(250, 0, 255, 0.57),
     0 -2px 8px 0 rgba(0, 41, 255, 0.89);
 }
+@media (max-width: 770px) {
+  .contact-us {
+    margin-top: 50px;
+    margin-bottom: 78px;
+  }
+  .contact-us-title {
+    font-size: 35px;
+    line-height: 214%;
+    letter-spacing: 0.01em;
+  }
+}
