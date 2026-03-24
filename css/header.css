@@ -34,7 +34,7 @@ nav a:hover {
 .mini_logos img:hover {
   transform: scale(1.1);
 }
-@media (max-width: 1040px) {
+@media (max-width: 1040px) and (min-width: 626px) {
   header {
     background:
       linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #0b0b0f 100%),
@@ -65,6 +65,62 @@ nav a:hover {
 }
 @media (min-width: 1040px) {
   .strip {
+    display: none;
+  }
+}
+@media (max-width: 625px) {
+  header {
+    padding: 13px 15px 0 15px;
+  }
+  .logo {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .mini_logos {
+    display: flex;
+    gap: 22px;
+  }
+  .mini_logos img {
+    width: 22px;
+    height: 21.57px;
+  }
+  .menu-list {
+    display: none;
+  }
+  .menu-burger {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .menu-burger span {
+    width: 24px;
+    height: 2px;
+    background-color: white;
+  }
+  .menu-burger::before {
+    content: "";
+    width: 24px;
+    height: 2px;
+    background-color: white;
+  }
+  .menu-burger::after {
+    content: "";
+    width: 24px;
+    height: 2px;
+    background-color: white;
+  }
+  .logo_mobile {
+    margin-left: 15%;
+  }
+}
+
+@media (min-width: 625px) {
+  .menu-burger {
+    display: none;
+  }
+  .logo_mobile {
     display: none;
   }
 }

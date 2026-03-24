@@ -148,12 +148,17 @@
   text-align: center;
 }
 @media (max-width: 985px) {
-  .reason-title {
-    font-size: 35px;
-    line-height: 214%;
-    letter-spacing: 0.01em;
+  .main2 {
+    margin-top: 40px;
   }
 }
+.reason-title {
+  font-size: 35px;
+  line-height: 214%;
+  letter-spacing: 0.01em;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 1115px) {
   .reason-1 {
     border: 1px solid #373438;
