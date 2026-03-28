@@ -88,11 +88,48 @@ nav a:hover {
   }
   .menu-list {
     display: none;
+    position: absolute;
+    align-items: center;
+    background:
+      linear-gradient(
+        180deg,
+        rgba(65, 65, 65, 0.86) 0%,
+        rgba(15, 15, 15, 0.86) 100%
+      ),
+      radial-gradient(
+        87.53% 90.47% at 83.53% 15.98%,
+        #2400ff 0%,
+        rgba(36, 0, 255, 0) 100%
+      ),
+      radial-gradient(
+        50.63% 58.97% at 19.88% 79.73%,
+        #fa00ff 0%,
+        rgba(250, 0, 255, 0.9) 12.47%,
+        rgba(250, 0, 255, 0) 100%
+      ),
+      radial-gradient(
+        79.67% 83.03% at 15.66% 24.4%,
+        #00f0ff 0%,
+        rgba(0, 240, 255, 0) 100%
+      );
+    border-radius: 29px;
+    width: 290px;
+    height: 337px;
+    justify-content: space-evenly;
+    backdrop-filter: blur(1px);
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+    z-index: 5;
   }
   .menu-burger {
     display: flex;
     flex-direction: column;
     gap: 4px;
+  }
+  .header__link {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 90%;
+    letter-spacing: 0.01em;
   }
   .menu-burger span {
     width: 24px;
@@ -113,6 +150,10 @@ nav a:hover {
   }
   .logo_mobile {
     margin-left: 15%;
+  }
+  .show-menu {
+    display: flex;
+    flex-direction: column;
   }
 }
 
