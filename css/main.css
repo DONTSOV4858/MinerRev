@@ -109,6 +109,7 @@
     margin-top: 0;
     align-items: center;
   }
+
   .title_info {
     font-weight: 700;
     font-size: 20px;
@@ -143,15 +144,19 @@
     display: flex;
     flex-direction: column;
     gap: 23px;
+    margin-top: 15px;
   }
-  .info_text {
-  }
+
   .info_list {
     flex-direction: column;
     margin-left: 0;
     gap: 23px;
+    text-align: center;
+    height: auto;
+    margin-top: 0;
+    padding: 0 20px 0 20px;
   }
-  .info_list img {
+  .icon_info {
     width: 30px;
     height: 30px;
   }
@@ -170,6 +175,7 @@
   .container-img-mobile {
     margin-top: 15px;
     margin-left: 30px;
+    overflow: hidden;
   }
   .container-img-tablet {
     display: none;

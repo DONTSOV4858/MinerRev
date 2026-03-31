@@ -60,6 +60,9 @@
     radial-gradient(circle at 60% 60%, #7b3cff 0%, transparent 70%),
     radial-gradient(circle at 10% 10%, #5b8cff 0%, transparent 60%), #2b2f3a;
 }
+.asic:hover .asic-image {
+  transform: scale(1.1);
+}
 .asic-back {
   position: absolute;
   top: -100%;
@@ -95,10 +98,8 @@
   cursor: pointer;
   transition: 0.3s;
 }
-.asic-image:hover {
-  transform: scale(1.1);
-}
-@media (max-width: 770px) {
+
+@media (max-width: 770px) and (min-width: 626px) {
   .main3 {
     margin-top: 35px;
   }
@@ -117,5 +118,64 @@
   }
   .asic-container {
     max-width: 90vw;
+  }
+}
+@media (max-width: 625px) {
+  .main3 {
+    margin-top: 28px;
+  }
+  .items-asics {
+    margin-top: 0;
+  }
+  .title-items h2 {
+    font-size: 20px;
+    line-height: 214%;
+    letter-spacing: 0.01em;
+  }
+  .asics-title h3 {
+    font-size: 20px;
+    line-height: 214%;
+    letter-spacing: 0.01em;
+  }
+  .asic-container {
+    max-width: 100vw;
+    padding: 0 15px;
+    gap: 20px;
+    padding-bottom: 15px;
+    margin: 0 10px;
+  }
+  .asic {
+    margin-top: 35px;
+    border-radius: 25px;
+    min-width: 135px;
+    max-width: 135px;
+    height: 110px;
+  }
+  .asic-image {
+    width: 94px;
+    height: 76px;
+    top: -25%;
+    right: 15%;
+  }
+  .asic-back svg {
+    width: 100px;
+    height: 100px;
+  }
+  .text-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+  }
+  .text-info {
+    font-size: 14px;
+  }
+  .asic-text {
+    padding-bottom: 10px;
+    gap: 9px 0;
+  }
+  .asic-back {
+    top: -35%;
+    right: 15%;
   }
 }
