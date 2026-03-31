@@ -113,12 +113,13 @@ nav a:hover {
         rgba(0, 240, 255, 0) 100%
       );
     border-radius: 29px;
-    width: 290px;
+    width: 90vw;
     height: 337px;
     justify-content: space-evenly;
     backdrop-filter: blur(1px);
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
     z-index: 5;
+    top: 0;
   }
   .menu-burger {
     display: flex;
