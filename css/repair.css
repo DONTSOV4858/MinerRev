@@ -94,4 +94,7 @@
   .last-service {
     border-bottom: none;
   }
+  .service:hover {
+    box-shadow: none;
+  }
 }
