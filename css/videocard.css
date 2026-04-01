@@ -56,7 +56,7 @@
   transition: 0.3s;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 770px) and (min-width: 626px) {
   .videocard {
     margin-top: 22px;
   }
@@ -64,5 +64,40 @@
     font-size: 35px;
     line-height: 214%;
     letter-spacing: 0.01em;
+  }
+}
+@media (max-width: 625px) {
+  .videocard {
+    margin-top: 26px;
+  }
+  .videocard-title {
+    font-size: 20px;
+  }
+  .videocard-item {
+    min-width: 169px;
+    max-width: 169px;
+    height: 96px;
+    margin-top: 50px;
+  }
+  .videocard-image {
+    width: 129px;
+    height: 74px;
+    right: 12%;
+    top: -50%;
+  }
+  .videocard-text {
+    padding-bottom: 19px;
+    gap: 1px 0;
+  }
+  .video-title {
+    font-size: 14px;
+  }
+  .videocard-back svg {
+    width: 100px;
+    height: 100px;
+  }
+  .videocard-back {
+    right: 20%;
+    top: -55%;
   }
 }

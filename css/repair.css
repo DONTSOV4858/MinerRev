@@ -38,7 +38,7 @@
 .repair-circle {
   position: relative;
 }
-@media (max-width: 770px) {
+@media (max-width: 770px) and (min-width: 626px) {
   .repair {
     margin-top: 30px;
   }
@@ -55,5 +55,43 @@
   .repair-circle svg {
     width: 186.27px;
     height: 180px;
+  }
+}
+@media (max-width: 625px) {
+  .repair {
+    margin-top: 40px;
+  }
+  .repair-title {
+    font-size: 20px;
+  }
+  .repair-circle {
+    display: none;
+  }
+  .repair-services {
+    flex-direction: column;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #00c6ff, #7b00ff);
+    margin: 0 15px;
+    margin-top: 40px;
+  }
+  .litle-text {
+    font-size: 16px;
+  }
+  .service-text {
+    font-size: 16px;
+    position: relative;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .service {
+    border-radius: 0%;
+    border-bottom: 1px solid white;
+    margin: 0 20px;
+  }
+  br {
+    display: none;
+  }
+  .last-service {
+    border-bottom: none;
   }
 }

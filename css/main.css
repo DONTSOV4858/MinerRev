@@ -175,7 +175,7 @@
   .container-img-mobile {
     margin-top: 15px;
     margin-left: 30px;
-    overflow: hidden;
+    overflow: clip;
   }
   .container-img-tablet {
     display: none;
