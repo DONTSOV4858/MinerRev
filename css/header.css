@@ -156,6 +156,21 @@ nav a:hover {
     display: flex;
     flex-direction: column;
   }
+  .hide-button span {
+    opacity: 0;
+  }
+  .hide-button.menu-burger::after {
+    opacity: 0;
+  }
+  .hide-button.menu-burger::before {
+    opacity: 0;
+  }
+  .menu-close-button {
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    z-index: 10;
+  }
 }
 
 @media (min-width: 625px) {

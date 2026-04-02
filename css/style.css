@@ -17,6 +17,7 @@ dd {
 }
 html {
   -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 html,
 body {
@@ -51,6 +52,7 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 main {
   flex: 1;

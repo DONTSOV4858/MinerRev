@@ -25,7 +25,7 @@
       </div>
       <div class="header_menu">
         <nav class="menu">
-          <a href="#">О нас</a>
+          <a href="#about-us">О нас</a>
           <svg
             class="strip"
             width="1"
@@ -36,7 +36,7 @@
           >
             <path d="M0.5 25V0" stroke="white" stroke-opacity="0.4" />
           </svg>
-          <a href="#">Почему мы</a>
+          <a href="#change-us">Почему мы</a>
           <svg
             class="strip"
             width="1"
@@ -47,7 +47,7 @@
           >
             <path d="M0.5 25V0" stroke="white" stroke-opacity="0.4" />
           </svg>
-          <a href="#">Каталог</a>
+          <a href="#catalog">Каталог</a>
           <svg
             class="strip"
             width="1"
@@ -58,7 +58,7 @@
           >
             <path d="M0.5 25V0" stroke="white" stroke-opacity="0.4" />
           </svg>
-          <a href="#">Ремонт</a>
+          <a href="#service">Ремонт</a>
           <svg
             class="strip"
             width="1"
@@ -69,12 +69,13 @@
           >
             <path d="M0.5 25V0" stroke="white" stroke-opacity="0.4" />
           </svg>
-          <a href="#">Связатся с нами</a>
+          <a href="#contacts">Связатся с нами</a>
         </nav>
         <nav class="menu-burger" id="nav_button">
           <span></span>
           <ul class="menu-list" id="menu">
-            <li><a href="#" class="header__link">О нас</a></li>
+            <p class="menu-close-button">X</p>
+            <li><a href="#about-us" class="header__link">О нас</a></li>
             <svg
               width="232"
               height="2"
@@ -127,7 +128,7 @@
                 </filter>
               </defs>
             </svg>
-            <li><a href="#" class="header__link">Почему мы</a></li>
+            <li><a href="#change-us" class="header__link">Почему мы</a></li>
             <svg
               width="232"
               height="2"
@@ -180,7 +181,7 @@
                 </filter>
               </defs>
             </svg>
-            <li><a href="#" class="header__link">Каталог</a></li>
+            <li><a href="#catalog" class="header__link">Каталог</a></li>
             <svg
               width="232"
               height="2"
@@ -233,7 +234,7 @@
                 </filter>
               </defs>
             </svg>
-            <li><a href="#" class="header__link">Ремонт</a></li>
+            <li><a href="#service" class="header__link">Ремонт</a></li>
             <svg
               width="232"
               height="2"
@@ -286,7 +287,9 @@
                 </filter>
               </defs>
             </svg>
-            <li><a href="#" class="header__link">Связатся с нами</a></li>
+            <li>
+              <a href="#contacts" class="header__link">Связатся с нами</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -299,7 +302,7 @@
       </div>
     </header>
     <main>
-      <section class="main">
+      <section class="main" id="about-us">
         <div class="container_info">
           <div class="info_left">
             <h2 class="title_info">
@@ -373,7 +376,7 @@
           <img src="img/Group 15.png" alt="" class="image-info-tablet" />
         </div>
       </section>
-      <section class="main2">
+      <section class="main2" id="change-us">
         <h2 class="reason-title">Люди выбирают нас!</h2>
         <div class="reasons">
           <section class="reason-1">Низкие цены</section>
@@ -418,7 +421,7 @@
           </div>
         </div>
       </section>
-      <section class="main3">
+      <section class="main3" id="catalog">
         <div class="title-items">
           <h2>Каталог</h2>
         </div>
@@ -684,7 +687,7 @@
           <img src="img/Gigabyte 2060 1.png" alt="" class="videocard-image" />
         </div>
       </section>
-      <section class="repair">
+      <section class="repair" id="service">
         <h2 class="repair-title">Ремонт</h2>
         <div class="repair-services">
           <div class="service">
@@ -884,7 +887,7 @@
           </div>
         </div>
       </section>
-      <section class="contact-us">
+      <section class="contact-us" id="contacts">
         <h2 class="contact-us-title">Свяжитесь с нами!</h2>
         <div class="contact-us-text">
           <p class="contact-us-question">Выбрали подходящий товар?</p>
